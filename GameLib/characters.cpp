@@ -1,5 +1,7 @@
 #include "characters.h"
 
+//ADDED COMMENT FOR A COPY
+
 Character::Character(int x, int y, std::string color, char symbol,
     int power, int health, bool isAlive)
     : Object(x, y, color, symbol), _health(health), _power(power), _isAlive(isAlive) {
