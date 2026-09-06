@@ -67,3 +67,16 @@ vcpkg_installed/
 # test output & cache
 Testing/
 .cache/
+
+#compilation and MVS files
+.vs
+x64
+packages
+*.user
+*.config
+*.vcxproj
+*.recipe
+*.sln
+GTests/x64
+App/x64
+GameLib/x64
